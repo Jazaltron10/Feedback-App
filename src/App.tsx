@@ -1,5 +1,7 @@
 import GlobalStyles from './components/styles/Global'
 import Header from './components/Header'
+import FeedbackItem from './components/FeedbackItem'
+import { ContainerStyles } from './components/styles/Container.styles'
 // import PropTypes from 'prop-types'
 
 function App() {
@@ -8,11 +10,18 @@ function App() {
         <>
             <GlobalStyles/>
             <Header />
-            <h1>James and John</h1>
+            <ContainerStyles>
+                <FeedbackItem />
+            </ContainerStyles>
         </>
     )
 }
 
+interface assets{
+    text: string;
+    bgColor: string;
+    textColor:string;
+}
 Header.defaultProps = {
     text: 'Feedback UI',
     bgColor:'rgba(0,0,0,0.4)',
