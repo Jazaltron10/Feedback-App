@@ -19,6 +19,9 @@ export const Reverse = styled(Card)`
     background-color: rgba(0,0,0,0.4);
     color: #fff;
 `
+
+
+
 export const NumDisplay = styled.div`
 `    
 export const TextDisplay = styled.div`
