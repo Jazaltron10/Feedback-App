@@ -290,7 +290,7 @@
         /*Typescript does not have a direct access to the html page during development */
         console.log(anchor.href);
 
->***Typescript contains special types for every DOM Element So when we use a particular DOM ELement typescript knows all the different types of properties on that element and provides it to us in vscode with intellisense***
+>***Typescript contains special types for every DOM Element So when we use a particular DOM Element typescript knows all the different types of properties on that element and provides it to us in vscode with intellisense***
 
     //const form = document.querySelector('form')!;
     const form = document.querySelector('.new-item-form') as HTMLFormElement;
@@ -438,6 +438,8 @@
     //let someone: Isperson;
 
 
+
+
 ## <-- **Implementation of interfaces with Objects**  -->
 
     import { Invoice } from './Classes/Invoice.js';
@@ -472,15 +474,6 @@
     invoices.forEach(inv=>{
         console.log(inv.client, inv.amount, inv.format());
     });
-
-
-
-
-
-
-
-
-
 
 
 

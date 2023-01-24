@@ -13,6 +13,7 @@ const GlobalStyles = createGlobalStyle`
         font-family: 'Poppins', sans-serif;
         /* background-color: #204229; */
         background-color: #202142;
+        /* background-color: #202142; */
         color:#fff;
         line-height: 1.6;
     }
