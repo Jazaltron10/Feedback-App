@@ -5,3 +5,5 @@ export const ContainerStyles = styled.article`
     margin: auto;
     padding: 0 20px;
 `
+
+
