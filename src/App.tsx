@@ -6,10 +6,13 @@ import { ContainerStyles } from './components/styles/Container.styles'
 
 function App() {
 
+    let text:string ;
+    let bgColor:string ;
+    let textColor:string ;
     return (
         <>
             <GlobalStyles/>
-            <Header />
+            <Header/>
             <ContainerStyles>
                 <FeedbackItem />
             </ContainerStyles>
